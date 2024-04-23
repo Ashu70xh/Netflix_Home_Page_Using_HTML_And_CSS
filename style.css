@@ -186,9 +186,15 @@ label::after {
     transition: transform 0.5s;
 }
 
-input[type="radio"] {
+/* The below written code does not work hence changing it to new one */
+
+/* input[type="radio"] { 
     display: none;
+} */
+.accordion input  {
+    display: none; 
 }
+
 
 .accordion .content {
     background-color: #303030;
